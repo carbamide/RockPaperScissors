@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  GamesTableViewController.h
 //  RockPaperScissors
 //
 //  Created by Joshua Barrow on 6/12/14.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController <UIAlertViewDelegate>
-
+@interface GamesTableViewController : UITableViewController
 
 @end
-

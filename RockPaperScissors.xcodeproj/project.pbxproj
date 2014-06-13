@@ -7,12 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2913F836194AA9ED003C1667 /* RockPaperScissors.xcdatamodel in Sources */ = {isa = PBXBuildFile; fileRef = 2913F835194AA9ED003C1667 /* RockPaperScissors.xcdatamodel */; };
+		2913F839194AAA5E003C1667 /* Game.m in Sources */ = {isa = PBXBuildFile; fileRef = 2913F838194AAA5E003C1667 /* Game.m */; };
+		29488DB3194AAC7F009879D7 /* GamesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 29488DB2194AAC7F009879D7 /* GamesTableViewController.m */; };
+		29488DB5194AAE5C009879D7 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29488DB4194AAE5C009879D7 /* CoreData.framework */; };
+		29488DB7194AAFC6009879D7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29488DB6194AAFC6009879D7 /* UIKit.framework */; };
 		29BC3555194A92D9009F7136 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29BC3554194A92D9009F7136 /* main.m */; };
 		29BC3558194A92D9009F7136 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 29BC3557194A92D9009F7136 /* AppDelegate.m */; };
 		29BC355B194A92D9009F7136 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 29BC355A194A92D9009F7136 /* ViewController.m */; };
 		29BC355E194A92D9009F7136 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29BC355C194A92D9009F7136 /* Main.storyboard */; };
 		29BC3560194A92D9009F7136 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 29BC355F194A92D9009F7136 /* Images.xcassets */; };
 		29BC356C194A92D9009F7136 /* RockPaperScissorsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 29BC356B194A92D9009F7136 /* RockPaperScissorsTests.m */; };
+		29BC3577194A9300009F7136 /* NetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 29BC3576194A9300009F7136 /* NetworkManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +32,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2913F835194AA9ED003C1667 /* RockPaperScissors.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RockPaperScissors.xcdatamodel; sourceTree = "<group>"; };
+		2913F837194AAA5E003C1667 /* Game.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Game.h; sourceTree = "<group>"; };
+		2913F838194AAA5E003C1667 /* Game.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Game.m; sourceTree = "<group>"; };
+		29488DB1194AAC7F009879D7 /* GamesTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GamesTableViewController.h; sourceTree = "<group>"; };
+		29488DB2194AAC7F009879D7 /* GamesTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GamesTableViewController.m; sourceTree = "<group>"; };
+		29488DB4194AAE5C009879D7 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		29488DB6194AAFC6009879D7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		29BC354F194A92D9009F7136 /* RockPaperScissors.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RockPaperScissors.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		29BC3553194A92D9009F7136 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		29BC3554194A92D9009F7136 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -38,6 +51,9 @@
 		29BC3565194A92D9009F7136 /* RockPaperScissorsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RockPaperScissorsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		29BC356A194A92D9009F7136 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		29BC356B194A92D9009F7136 /* RockPaperScissorsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RockPaperScissorsTests.m; sourceTree = "<group>"; };
+		29BC3575194A9300009F7136 /* NetworkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkManager.h; sourceTree = "<group>"; };
+		29BC3576194A9300009F7136 /* NetworkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkManager.m; sourceTree = "<group>"; };
+		29BC3578194A9766009F7136 /* Defines.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Defines.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +61,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				29488DB7194AAFC6009879D7 /* UIKit.framework in Frameworks */,
+				29488DB5194AAE5C009879D7 /* CoreData.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,7 +79,10 @@
 		29BC3546194A92D9009F7136 = {
 			isa = PBXGroup;
 			children = (
+				29488DB6194AAFC6009879D7 /* UIKit.framework */,
+				29488DB4194AAE5C009879D7 /* CoreData.framework */,
 				29BC3551194A92D9009F7136 /* RockPaperScissors */,
+				29BC3552194A92D9009F7136 /* Supporting Files */,
 				29BC3568194A92D9009F7136 /* RockPaperScissorsTests */,
 				29BC3550194A92D9009F7136 /* Products */,
 			);
@@ -79,13 +100,20 @@
 		29BC3551194A92D9009F7136 /* RockPaperScissors */ = {
 			isa = PBXGroup;
 			children = (
+				2913F837194AAA5E003C1667 /* Game.h */,
+				2913F838194AAA5E003C1667 /* Game.m */,
 				29BC3556194A92D9009F7136 /* AppDelegate.h */,
 				29BC3557194A92D9009F7136 /* AppDelegate.m */,
 				29BC3559194A92D9009F7136 /* ViewController.h */,
 				29BC355A194A92D9009F7136 /* ViewController.m */,
+				29BC3575194A9300009F7136 /* NetworkManager.h */,
+				29BC3576194A9300009F7136 /* NetworkManager.m */,
+				29BC3578194A9766009F7136 /* Defines.h */,
+				29488DB1194AAC7F009879D7 /* GamesTableViewController.h */,
+				29488DB2194AAC7F009879D7 /* GamesTableViewController.m */,
 				29BC355C194A92D9009F7136 /* Main.storyboard */,
+				2913F835194AA9ED003C1667 /* RockPaperScissors.xcdatamodel */,
 				29BC355F194A92D9009F7136 /* Images.xcassets */,
-				29BC3552194A92D9009F7136 /* Supporting Files */,
 			);
 			path = RockPaperScissors;
 			sourceTree = "<group>";
@@ -97,6 +125,7 @@
 				29BC3554194A92D9009F7136 /* main.m */,
 			);
 			name = "Supporting Files";
+			path = RockPaperScissors;
 			sourceTree = "<group>";
 		};
 		29BC3568194A92D9009F7136 /* RockPaperScissorsTests */ = {
@@ -215,8 +244,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				29BC3577194A9300009F7136 /* NetworkManager.m in Sources */,
 				29BC355B194A92D9009F7136 /* ViewController.m in Sources */,
 				29BC3558194A92D9009F7136 /* AppDelegate.m in Sources */,
+				29488DB3194AAC7F009879D7 /* GamesTableViewController.m in Sources */,
+				2913F839194AAA5E003C1667 /* Game.m in Sources */,
+				2913F836194AA9ED003C1667 /* RockPaperScissors.xcdatamodel in Sources */,
 				29BC3555194A92D9009F7136 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -335,6 +368,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = RockPaperScissors/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -346,6 +380,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = RockPaperScissors/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -406,6 +441,7 @@
 				29BC3571194A92D9009F7136 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		29BC3572194A92D9009F7136 /* Build configuration list for PBXNativeTarget "RockPaperScissorsTests" */ = {
 			isa = XCConfigurationList;
@@ -414,6 +450,7 @@
 				29BC3574194A92D9009F7136 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
