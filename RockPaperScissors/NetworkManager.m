@@ -102,10 +102,10 @@
 
 -(ThrowType)throwTypeStringToEnum:(NSString *)throwType
 {
-    if ([self firstString:throwType constainsString:@"rock"]) {
+    if ([self firstString:throwType containsString:@"rock"]) {
         return Rock;
     }
-    else if ([self firstString:throwType constainsString:@"paper"]) {
+    else if ([self firstString:throwType containsString:@"paper"]) {
         return Paper;
     }
     else {
@@ -113,7 +113,7 @@
     }
 }
 
--(BOOL)firstString:(NSString *)string constainsString:(NSString *)subString
+-(BOOL)firstString:(NSString *)string containsString:(NSString *)subString
 {
     NSRange range = [string rangeOfString:subString];
     
